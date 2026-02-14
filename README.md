@@ -1,7 +1,5 @@
 # Pico-TG-Tamagotchi-Emulator
 
-# Raspberry Pi Pico Tamagotchi
-
 ## Hardware
 - Raspberry Pi Pico
 - SSD1306 OLED (I2C)
