@@ -13,11 +13,20 @@
 - Battery standalone boot (main.py auto run)
 
 ## Pin Mapping
-OLED SDA → GP20  
-OLED SCL → GP21  
-Button A → GP16  
-Button Left → GP17  
-Button Right → GP18  
+red/VSYS
+black/GND
+
+[OLED/Pico]
+GND/GND
+VCC/3V3(OUT)
+SCL/GP21
+SDA/GP20
+
+[button/Pico] 
+1/GP16 
+2/GP17 
+3/GP18 
+u/GND
 
 ## How to Run
 Save files to Pico as main.py and power via VSYS.
